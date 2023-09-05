@@ -1,0 +1,29 @@
+<bot schemaname="optum_optumBot">
+  <authenticationmode>1</authenticationmode>
+  <authenticationtrigger>0</authenticationtrigger>
+  <iscustomizable>0</iscustomizable>
+  <language>1033</language>
+  <name>Optum Bot</name>
+  <runtimeprovider>0</runtimeprovider>
+  <synchronizationstatus>{
+  "contentVersion": 2,
+  "lastFinishedPublishOperation": {
+    "userId": "a7e45fe3-665b-45be-af14-ed6c130247db",
+    "operationStart": "2023-08-31T17:02:03.4855717Z",
+    "operationEnd": "2023-08-31T17:02:06.3848325Z",
+    "status": "Succeeded"
+  },
+  "lastPublishedOnUtc": "2023-08-31T17:02:05Z",
+  "currentSynchronizationState": {
+    "botRegistration": {
+      "applicationId": "b5202475-3af7-403f-b36a-320583245de5",
+      "isAppAvailableInTenant": true
+    },
+    "provisioningStatus": "Provisioned",
+    "state": "Synchronized"
+  },
+  "lastSynchronizedOnUtc": "2023-08-31T17:04:16.3832865Z"
+}</synchronizationstatus>
+  <template>default-2.0.1</template>
+  <timezoneruleversionnumber>0</timezoneruleversionnumber>
+</bot>
