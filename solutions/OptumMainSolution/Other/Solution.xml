@@ -79,7 +79,23 @@
         </Address>
       </Addresses>
     </Publisher>
-    <RootComponents />
-    <MissingDependencies />
+    <RootComponents>
+      <RootComponent type="29" id="{6417138e-f947-ee11-be6d-00224803bd91}" behavior="0" />
+      <RootComponent type="29" id="{c9ff63de-3348-ee11-be6d-00224803bd91}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="botcomponent" displayName="Chatbot subcomponent" solution="PowerVirtualAgents (2.0.0.519)" />
+        <Dependent type="29" displayName="Auditing for Metadata" id="{6417138e-f947-ee11-be6d-00224803bd91}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="new_sharedteams_ff295" solution="Active" id.connectionreferencelogicalname="new_sharedteams_ff295" />
+        <Dependent type="29" displayName="Auditing for Metadata" id="{6417138e-f947-ee11-be6d-00224803bd91}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="optum_sharedcommondataserviceforapps_702dc" solution="Active" id.connectionreferencelogicalname="optum_sharedcommondataserviceforapps_702dc" />
+        <Dependent type="29" displayName="Auditing for Metadata" id="{6417138e-f947-ee11-be6d-00224803bd91}" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
