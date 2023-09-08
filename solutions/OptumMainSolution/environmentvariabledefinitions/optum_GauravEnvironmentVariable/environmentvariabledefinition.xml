@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="optum_GauravEnvironmentVariable">
+  <defaultvalue>Gaurav Test Data </defaultvalue>
+  <displayname default="Gaurav Environment Variable ">
+    <label description="Gaurav Environment Variable " languagecode="1033" />
+  </displayname>
+  <introducedversion>1.1.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>
