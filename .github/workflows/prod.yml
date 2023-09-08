@@ -116,4 +116,4 @@ jobs:
         force-overwrite: true
         publish-changes: true
         UseDeploymentSettingsFile: true
-        DeploymentSettingsFile: ${{ github.event.inputs.solution_release_folder}}/${{ github.event.inputs.solution_name }}.zip
+        DeploymentSettingsFile: DeploymentSettings.json
