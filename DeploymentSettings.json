@@ -2,18 +2,18 @@
   "EnvironmentVariables": [
     {
       "SchemaName": "optum_GauravEnvironmentVariable",
-      "Value": ""
+      "Value": "test"
     }
   ],
   "ConnectionReferences": [
     {
       "LogicalName": "optum_sharedcommondataserviceforapps_53f71",
-      "ConnectionId": "",
+      "ConnectionId": "1eba0c8d-b117-4ec6-858e-7a728e034840",
       "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
     },
     {
       "LogicalName": "optum_sharedcommondataserviceforapps_6bdc5",
-      "ConnectionId": "",
+      "ConnectionId": "1eba0c8d-b117-4ec6-858e-7a728e034840",
       "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
     }
   ]
