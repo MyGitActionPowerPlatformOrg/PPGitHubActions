@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="mydemopluginmac, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0d24c58d6f6a2c61" PluginAssemblyId="90edbc7c-3d35-49a2-97e5-d2163f7bcad7" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/mydemopluginmac-90EDBC7C-3D35-49A2-97E5-D2163F7BCAD7/mydemopluginmac.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="mydemopluginmac.Plugin1, mydemopluginmac, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0d24c58d6f6a2c61" PluginTypeId="11396f2a-76da-458a-9918-5417408c79b8" Name="mydemopluginmac.Plugin1">
+      <FriendlyName>f3a82f22-ef07-4371-993b-859f3089e1b7</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>
