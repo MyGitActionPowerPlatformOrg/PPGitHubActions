@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.23075.204" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23081.190" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>OptumMainSolution</UniqueName>
     <LocalizedNames>
@@ -79,7 +79,10 @@
         </Address>
       </Addresses>
     </Publisher>
-    <RootComponents />
+    <RootComponents>
+      <RootComponent type="29" id="{c9ff63de-3348-ee11-be6d-00224803bd91}" behavior="0" />
+      <RootComponent type="91" id="{90edbc7c-3d35-49a2-97e5-d2163f7bcad7}" schemaName="mydemopluginmac, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0d24c58d6f6a2c61" behavior="0" />
+    </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
 </ImportExportXml>
