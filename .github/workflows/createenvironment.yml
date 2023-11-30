@@ -39,7 +39,6 @@ jobs:
         client-secret: ${{ secrets.PowerPlatformSPN }}
         tenant-id: ${{env.TENANT_ID}}
         name: ${{ github.event.inputs.env_name }}_Dev
-        type: Developer
     - name: assign-user to developer environment
       uses:  microsoft/powerplatform-actions/assign-user@latest
       with:
