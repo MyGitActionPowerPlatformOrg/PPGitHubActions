@@ -1,5 +1,4 @@
 name: Create Dev Environment
- 
 on:
   workflow_dispatch:
     inputs:
@@ -10,6 +9,14 @@ on:
      user_id:
       description: AAD object id for the user
       required: true 
+env:
+#edit your values here
+  ENVIRONMENT_URL: 'https://orge554fa74.crm.dynamics.com'
+  CLIENT_ID: 'a9e67a7e-0f02-4a33-ac96-ee810adca3e1'
+  TENANT_ID: '64e9d33b-a08c-4985-8735-a458851b2816'
+permissions:
+  contents: write
+
 jobs:
   Create-Environments:
     runs-on: windows-latest
