@@ -14,6 +14,9 @@ env:
   ENVIRONMENT_URL: 'https://orge554fa74.crm.dynamics.com'
   CLIENT_ID: 'a9e67a7e-0f02-4a33-ac96-ee810adca3e1'
   TENANT_ID: '64e9d33b-a08c-4985-8735-a458851b2816'
+  USERNAME: 'admin@M365x76321320.onmicrosoft.com'
+  PASSWORD: 'cHe#=z70FvR30(V='
+
 permissions:
   contents: write
 
@@ -35,8 +38,10 @@ jobs:
     - name: Create Developer Environment
       uses: microsoft/powerplatform-actions/create-environment@latest
       with:
-        app-id: ${{env.CLIENT_ID}}
-        client-secret: ${{ secrets.PowerPlatformSPN }}
+       # app-id: ${{env.CLIENT_ID}}
+       # client-secret: ${{ secrets.PowerPlatformSPN }}
+        user-name: ${{ env.USERNAME }}
+        password-secret: ${{ env.PASSWORD }}
         tenant-id: ${{env.TENANT_ID}}
         name: ${{ github.event.inputs.env_name }}_Dev
     - name: assign-user to developer environment
